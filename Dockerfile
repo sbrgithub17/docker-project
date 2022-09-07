@@ -1,2 +1,2 @@
 FROM tomcat
-COPY 
+COPY targrt/mavenwebapp*.var /usr/local/tomcat/webapps/mavenwebapp.war
